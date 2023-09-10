@@ -31,5 +31,30 @@ left = \absolute {
   \time 3/4
 
   r2. |
+  \clef "treble"
+  <f' c'' e''>2. |
+  <g' d'' f''> |
+  <e' b' d''> |
+
+  \time 4/4
+  <cis' e' a'>1\arpeggio |
+  \clef "bass" 
+  <f c' e'> |
+  <f g d'> |
+  <e b d'> |
+  r4 <a, e c'>\arpeggio <g, d b>2\arpeggio |
+
+  r4. <d, a, d>4. e4 |
+  b8 c' b4 g4 <d, d> |
+  <e, e> 4. b,4. e,4 |
+  b8 a b4 e4 q |
+
+  <f, f>4 c <f,, f,>2 |
+  r8 <g,, g,>-. r4 q2 |
+  \clef "treble" g'2. c''8 b'8 |
+
+  \bar "||"
+
+  c''4
 
 }

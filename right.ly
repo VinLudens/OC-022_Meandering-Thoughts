@@ -32,5 +32,29 @@ right = \absolute {
 
   4\fermata g''' e''' |
 
+  c'''2 b''8 a'' |
+  <g'' b''>4 c''' d'''8 b''
+  <e'' g''>4. f''8 e'' f''
+
+  \time 4/4
+  <cis'' e'' bes''>4\arpeggio a'' g'' f'' |
+
+  e''8 f'' e'' c'' a'2 |
+  r4 e''8 f'' g'' a'' g'' f'' |
+  e'' f'' e''4 c'' <g'' b''> |
+  <e'' g''>2 <d'' a''>4 g''8 f'' |
+
+  <g' e''>8 f'' e''4 c''2 |
+  r2 r8 b' c'' d'' |
+  <g' b' e''>8 d'' e''4 b'2 |
+  r2 r8 b' c'' d'' |
+
+  <f' a' e''>4. q8 q4 g''8 f'' |
+  <g' b' e''>8-. r8 q2. |
+  <b' d''>2. r4 |
+
+  \bar "||"
+
+  r4
 
 }
