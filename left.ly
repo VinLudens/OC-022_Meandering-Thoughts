@@ -26,10 +26,10 @@ left = \absolute {
   <e,, e,>-> \tuplet 6/4 { e,16 b, e \change Staff = "right" g b d' } \tuplet 9/6 { \change Staff = "left" e b e' \change Staff = "right" g' b' d'' \change Staff = "left" e' g' b' } |
   \tuplet 9/6 { e''8 b' g' e' b g e b, g, } |
   \time 9/8
-  <a,, a,>-> \tuplet 6/4 { b,16 f b \change Staff = "right" cis' f' a' } \change Staff = "left" b16 f' b' \change Staff = "right" cis'' f'' a'' s4. |
+  <a,, a,>-> \tuplet 6/4 { b,16 f b \change Staff = "right" cis' f' a' } \change Staff = "left" b16 f' b' \change Staff = "right" cis'' f'' a'' s4. | \change Staff = "left"
 
   \time 3/4
 
-  r
+  r2. |
 
 }
