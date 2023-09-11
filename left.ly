@@ -55,6 +55,23 @@ left = \absolute {
 
   \bar "||"
 
-  c''4
+
+  c''4_~ <c'' e'' g'' b''>\arpeggio q\arpeggio q\arpeggio |
+  g'4_~ <g' bes' d'' g''>\arpeggio q\arpeggio q\arpeggio |
+  <bes' d'' f'' bes''>2\arpeggio <d'' f'' bes''> |
+  <f' a' c'' e''>2 <a' c'' e''> |
+
+  \clef "bass"
+  r8 c,16 c <c e g>4. c,8 q4 |
+  r8. g,,16 <bes, f>4. g,8 <d g>4 |
+  <bes,, bes,>4 <bes, f bes>2 <f bes>8 <bes,, bes,> |
+  <f,, f,>4 <f, c f>2 <c f>4 |
+
+  r8 a,,16 a, <a, c e>4. a,,8 q4 |
+  r8. <ees,, ees,>16 <ees g>4. ees,8 <ees g bes>4 |
+  <d,, d,>4 <d, a, d>2 <a, d>4 |
+  <f,, f,>4 <f, c f> <f c'> <c' f'> |
+
+  <f c'>
 
 }

@@ -33,8 +33,8 @@ right = \absolute {
   4\fermata g''' e''' |
 
   c'''2 b''8 a'' |
-  <g'' b''>4 c''' d'''8 b''
-  <e'' g''>4. f''8 e'' f''
+  <g'' b''>4 c''' d'''8 b'' |
+  <e'' g''>4. f''8 e'' f'' |
 
   \time 4/4
   <cis'' e'' bes''>4\arpeggio a'' g'' f'' |
@@ -54,7 +54,24 @@ right = \absolute {
   <b' d''>2. r4 |
 
   \bar "||"
+  \tempo "Andante" 4 = 72
 
-  r4
+  r4 <c''' e''' c''''>\arpeggio <c''' e''' b'''>\arpeggio <c''' e''' g'''>\arpeggio |
+  r4 <bes'' d''' bes'''>\arpeggio <bes'' d''' a'''>\arpeggio <bes'' d''' f'''>\arpeggio |
+  <e'''>16\arpeggio f''' g''' a''' g'''4 r8 e'''16 f''' g''' a''' g''' f''' |
+  e''' f''' e'''8 c'''4 r8 e'16 f' g' a' g' f' |
+
+
+  e'4 <c' e' c''> <c' e' b'> <c' e' g'>8 e'16 f' |
+  g'-. a'-. g'8 <d' f' bes'>4 <d' f' a'> <bes g'>8 f'16 e' |
+  e'16 f' e' c' a4 <g'' c''' e'''>8 e'16 f' g' a' g' f' |
+  e' f' e' c' g4 <e''' f''' a''' c''''>8 e'16 f' g' a' g' f' |
+
+  e'4 <c' e' c''> <c' e' b'> <c' e' g'>8 e'16 f' |
+  g'-. a'-. g'8 <c' ees' bes'>4 <c' ees' a'> <c' ees' g'>8 f'16 e' |
+  e'16 f' e' c' a4 <g'' c''' e'''>8 e'16 f' <g' e''> <f' d''> <g' e''> <f' d''> |
+  <e' c''> d'' c'' b' a'2 g'8 b' |
+
+  <e' a'>
 
 }
