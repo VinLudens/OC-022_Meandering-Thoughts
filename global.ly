@@ -4,6 +4,7 @@
 global = {
   \key c \major
   \time 6/8
+  \set PianoStaff.connectArpeggios = ##t
 }
 
 %{
