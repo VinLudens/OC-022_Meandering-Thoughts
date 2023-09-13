@@ -72,6 +72,17 @@ left = \absolute {
   <d,, d,>4 <d, a, d>2 <a, d>4 |
   <f,, f,>4 <f, c f> <f c'> <c' f'> |
 
-  <f c'>
+  <f c'>2 <f gis c'>\arpeggio |
+  <e g b d'>4. <d fis a>8 ~ q2 |
+  s2. r4 |
+  <g, d g>1 |
+
+  <c, c>4 g, c, g, |
+  <a,, a,>4 <a, cis e> <cis,, cis,> <cis, a, cis> |
+  <d f a c'>2 <g, d g>\arpeggio |
+  r1 |
+
+
+  r
 
 }

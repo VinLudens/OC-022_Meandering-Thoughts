@@ -56,10 +56,10 @@ right = \absolute {
   \bar "||"
   \tempo "Andante" 4 = 72
 
-  r4 <c''' e''' c''''>\arpeggio <c''' e''' b'''>\arpeggio <c''' e''' g'''>\arpeggio |
+  r4 \ottava 1 <c''' e''' c''''>\arpeggio <c''' e''' b'''>\arpeggio <c''' e''' g'''>\arpeggio |
   r4 <bes'' d''' bes'''>\arpeggio <bes'' d''' a'''>\arpeggio <bes'' d''' f'''>\arpeggio |
   <e'''>16\arpeggio f''' g''' a''' g'''4 r8 e'''16 f''' g''' a''' g''' f''' |
-  e''' f''' e'''8 c'''4 r8 e'16 f' g' a' g' f' |
+  e''' f''' e'''8 c'''4 \ottava 0 r8 e'16 f' g' a' g' f' |
 
 
   e'4 <c' e' c''> <c' e' b'> <c' e' g'>8 e'16 f' |
@@ -72,6 +72,17 @@ right = \absolute {
   e'16 f' e' c' a4 <g'' c''' e'''>8 e'16 f' <g' e''> <f' d''> <g' e''> <f' d''> |
   <e' c''> d'' c'' b' a'2 g'8 b' |
 
-  <e' a'>
+  <e' a'>4\fermata \tuplet 3/2 { a'8 b' c'' } <f' gis' d''>4\arpeggio c''8 b' |
+  <e' g' b'>16 c'' b' g' e' d' <c' e'>4. \change Staff = "left" d16 fis a \change Staff = "right" c' |
+  e' c' \change Staff = "left" a fis d c \change Staff = "right" \clef "bass" a, fis, d, \change Staff = "left" \ottava -1 c, a,, d,, ~ 4 \ottava 0 | \change Staff = "right" \clef "treble"
+  <b e'>2. e'4 |
+
+  <g b g'>2.\arpeggio \tuplet 3/2 { r8 <g g'> <a a'> } |
+  <bes d' bes'>4 \tuplet 3/2 { r8 <c' c''> <bes bes'> } <a a'>4. g'8 |
+  g'8 f' e' f' <b d' a'>2\arpeggio |
+  d'2. d'8 e' |
+
+
+  r
 
 }
