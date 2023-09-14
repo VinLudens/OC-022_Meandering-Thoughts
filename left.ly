@@ -83,6 +83,20 @@ left = \absolute {
   r1 |
 
 
-  r
+  \bar "||"
 
+  q4 <d g> q q |
+  <a, e a> <e a> q q |
+  <b, fis b> <fis b> q q |
+
+  <g, d g> <d g> q q |
+  <e, b, e> <e gis b> q q |
+  <g, d g> <g b>2 r4 |
+
+  c,4 \tuplet 7/4 { c16 e g b \change Staff = "right" \clef "treble" c' e' g' } b'32 \change Staff = "left" \clef "treble" c'' e'' g'' b'' \change Staff = "right" \ottava 1 c''' e''' g''' b'''4 | \change Staff = "left" \clef "bass"
+  <g,, g,>2 d,4 g, |
+  d, g, d, g,, |
+  \change Staff = "right" \voiceTwo <d'' fis'' g''>2 r2 |
+
+  \bar "|."
 }

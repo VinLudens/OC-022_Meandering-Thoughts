@@ -83,6 +83,21 @@ right = \absolute {
   d'2. d'8 e' |
 
 
-  r
+  \bar "||"
+
+  <d' f'>16 <e' g'> <d' f'>8 r <d'' f''>16 <e'' g''> <d'' f''>4 e'8 f' |
+  <d' g'>16 <e' a'> <d' g'>8 r <d'' g''>16 <e'' a''> <d'' g''>4 f'8 g' |
+  <d' a'>16 <fis' b'> <d' a'>8 r \ottava 1 <d''' a'''>16 <fis''' b'''> <d''' a'''>8 <b'' fis'''>16 <d''' g'''> <b'' fis'''>8 d'''16 e''' |
+
+  q <fis'' d'''> b'' cis''' <e'' d'''> a'' <d'' fis''>4. \ottava 0 e''16 fis'' e'' d'' |
+  cis'' d'' cis'' a' fis'4. e'8 a' fis' |
+  e'16 fis' e' d' cis'2 \clef "bass" a4 |
+
+  <c e b>1 \clef "treble" |
+  <d''' fis''' b'''>4 \ottava 0 a''16 b'' a'' g'' fis'' g'' fis'' d'' b' d'' b' g' |
+  fis' g' fis' d' b d' b g fis g b d' <fis b fis'>4\arpeggio\fermata |
+  \voiceOne b''2\fermata r2 |
+
+  \bar "|."
 
 }
