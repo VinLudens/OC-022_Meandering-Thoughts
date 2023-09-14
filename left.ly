@@ -45,9 +45,9 @@ left = \absolute {
   r4 <a, e c'>\arpeggio <g, d b>2\arpeggio |
 
   r4. <d, a, d>4. e4 |
-  b8 c' b4 g4 <d, d> |
+  b8\( c' b4 g4\) <d, d> |
   <e, e> 4. b,4. e,4 |
-  b8 a b4 e4 q |
+  b8\( a b4 e4\) q |
 
   <f, f>4 c <f,, f,>2 |
   r8 <g,, g,>-. r4 q2 |
