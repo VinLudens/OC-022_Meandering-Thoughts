@@ -83,6 +83,8 @@ crescPoco = \tweak DynamicText.self-alignment-X #LEFT %\tweak X-offset #1.0
 \editionMod dynamics 61 1/4 music.Dynamics \!
 
 \editionMod dynamics 62 0/4 music.Dynamics \mf
+\editionMod tweaks 62 7/28 music.Voice.B \override TupletNumber.Y-offset = #6.5
+\editionMod tweaks 62 7/28 music.Voice.B \override TupletNumber.X-offset = #6
 
 \editionMod dynamics 63 1/4 music.Dynamics \cresc
 
