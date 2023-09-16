@@ -30,6 +30,7 @@ crescPoco = \tweak DynamicText.self-alignment-X #LEFT %\tweak X-offset #1.0
 
 \editionMod dynamics 19 0/4 music.Dynamics \sfz
 \editionMod tweaks 19 0/4 music.Voice.B \once\override Beam.positions = #'(3 . 5.8)
+\editionMod tweaks 19 12/16 music.Voice.A \once\override Staff.OttavaBracket.padding = #2
 
 \editionMod dynamics 20 0/4 music.Dynamics \sp
 
