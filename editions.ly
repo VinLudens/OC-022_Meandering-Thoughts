@@ -17,12 +17,16 @@ crescPoco = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 \editionMod dynamics 10 0/4 music.Dynamics \mf
 
 \editionMod dynamics 13 0/4 music.Dynamics \sfz
+\editionMod tweaks 13 0/4 music.Voice.B \once\override Beam.positions = #'(2 . 5)
 
 \editionMod dynamics 15 0/4 music.Dynamics \sfz
+\editionMod tweaks 15 0/4 music.Voice.B \once\override Beam.positions = #'(2.3 . 5.5)
 
 \editionMod dynamics 17 0/4 music.Dynamics \sfz
+\editionMod tweaks 17 0/4 music.Voice.B \once\override Beam.positions = #'(1 . 4.8)
 
 \editionMod dynamics 19 0/4 music.Dynamics \sfz
+\editionMod tweaks 19 0/4 music.Voice.B \once\override Beam.positions = #'(3 . 5.8)
 
 \editionMod dynamics 20 0/4 music.Dynamics \sp
 
