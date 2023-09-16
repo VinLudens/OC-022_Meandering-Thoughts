@@ -55,6 +55,7 @@ crescPoco = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 \editionMod dynamics 47 0/4 music.Dynamics \dim
 
 \editionMod dynamics 48 0/4 music.Dynamics \pp
+\editionMod tweaks 48 2/4 music.Voice.A \once\override Score.Arpeggio.X-extent = #'(-1.5 . 0.5)
 
 \editionMod dynamics 50 11/16 music.Dynamics \ppp
 
@@ -64,6 +65,7 @@ crescPoco = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 \editionMod dynamics 53 2/4 music.Dynamics \!
 
 \editionMod dynamics 54 0/4 music.Dynamics \sp
+\editionMod tweaks 54 2/4 music.Voice.A \once\override Score.Arpeggio.X-extent = #'(-0.5 . 0.8)
 
 \editionMod dynamics 56 0/4 music.Dynamics \p
 
