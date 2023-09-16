@@ -14,19 +14,19 @@ right = \absolute {
   <a' g''>8 q q q q q |
   <a' a''>8 q q q q q |
 
-  <b' b''> q q <c'' c'''> q q |
+  \ottava 1 <b' b''> q q <c'' c'''> q q |
   <d'' d'''> q q <e'' e'''> q q |
   <f'' f'''> q q <g'' g'''> q q |
   <a'' a'''> q q <b'' b'''> q q |
 
-  <c''' e''' a''' c''''>2.-> |
-  q4\( <b'' b'''> <a'' a'''> |
+  \ottava 1 <c''' e''' a''' c''''>2.-> |
+  \ottava 1 q4\( <b'' b'''> <a'' a'''> |
   <b'' e''' g''' b'''>2.\) |
-  q4\( <a'' a'''> <g'' g'''> |
+  \ottava 1 q4\( <a'' a'''> <g'' g'''> |
   <b'' d''' g''' b'''>2.\) |
-  q4\( <a'' a'''> <g'' g'''> |
+  \ottava 1 q4\( <a'' a'''> <g'' g'''> |
   \time 9/8
-  <a'' cis''' e''' a'''>2.\) \change Staff = "left" b'16 f'' b'' \change Staff = "right" cis''' f''' a'''\( ~ |
+  <a'' cis''' e''' a'''>2.\) \change Staff = "left" b'16 f'' b'' \change Staff = "right" \ottava 1 cis''' f''' a'''\( ~ |
 
   \time 3/4
 
@@ -34,7 +34,7 @@ right = \absolute {
 
   c'''2\) b''8\( a'' |
   <g'' b''>4 c''' d'''8 b'' |
-  <e'' g''>4.\) f''8\( e'' f'' |
+  <e'' g''>4.\) \ottava 0 f''8\( e'' f'' |
 
   \time 4/4
   <cis'' e'' bes''>4\arpeggio a'' g'' f''\) |
@@ -74,7 +74,7 @@ right = \absolute {
   e'4 <c' e' c''>\( <c' e' b'> <c' e' g'>8\) e'16 f' |
   g'-. a'-. g'8 <d' f' bes'>4\( <d' f' a'> <bes g'>8\) f'16 e' |
   e'16 f' e' c' a4 <g'' c''' e'''>8 e'16 f' g' a' g' f' |
-  e' f' e' c' g4 <e''' f''' a''' c''''>8 e'16 f' g' a' g' f' |
+  e' f' e' c' g4 \ottava 1 <e''' f''' a''' c''''>8 \ottava 0 e'16 f' g' a' g' f' |
 
   e'4 <c' e' c''>\( <c' e' b'> <c' e' g'>8\) e'16 f' |
   g'-. a'-. g'8 <c' ees' bes'>4\( <c' ees' a'> <c' ees' g'>8\) f'16 e' |
@@ -105,7 +105,7 @@ right = \absolute {
   <c e b>1\) \clef "treble" |
   <d''' fis''' b'''>4 \ottava 0 a''16 b'' a'' g'' fis'' g'' fis'' d'' b' d'' b' g' |
   fis' g' fis' d' b d' b g fis g b d' <fis b fis'>4\arpeggio\fermata |
-  \voiceOne b''2\fermata r2 |
+  \clef "treble" \voiceOne b''2\fermata r2 |
 
   \bar "|."
 
