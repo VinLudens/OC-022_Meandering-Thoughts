@@ -49,6 +49,15 @@ left = \absolute {
   <e, e> 4. b,4. e,4 |
   b8\( a b4 e4\) q |
 
+
+
+
+
+
+
+
+
+
   <f, f>4 c <f,, f,>2 |
   r8 <g,, g,>-. r4 q2 |
   \clef "treble" g'2. c''8 b'8 |

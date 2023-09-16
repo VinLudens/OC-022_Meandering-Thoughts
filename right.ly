@@ -44,10 +44,19 @@ right = \absolute {
   e'' f'' e''4 c''\) <g'' b''>\( |
   <e'' g''>2 <d'' a''>4 g''8 f'' |
 
-  <g' e''>8-"polyphony" f'' e''4 c''2\) |
-  r2 r8 b'\( c'' d'' |
-  <g' b' e''>8 d'' e''4 b'2\) |
-  r2 r8 b'\( c'' d'' |
+  << { \voiceOne
+      e''8 f'' e''4 c''2\) |
+      r2 r8 b'\( c'' d'' |
+      e''8 d'' e''4 b'2\) |
+      r2 r8 b'\( c'' d'' |
+    }
+    \new Voice { \voiceTwo
+      g'1 |
+      s1 |
+      <g' b'>1 |
+      s1 |
+    }
+  >> \oneVoice
 
   <f' a' e''>4. q8 q4 g''8 f'' |
   <g' b' e''>8-. r8 q2. |
