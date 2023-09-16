@@ -3,7 +3,7 @@
 \consistToContexts #edition-engraver Score.PianoStaff.Staff.Voice
 \consistToContexts #edition-engraver Score.PianoStaff.Dynamics
 
-crescPoco = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
+crescPoco = \tweak DynamicText.self-alignment-X #LEFT %\tweak X-offset #1.0
         #(make-dynamic-script (markup #:normal-text #:italic "cresc. poco a poco"))
 
 \addEdition tweaks
@@ -12,15 +12,18 @@ crescPoco = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 
 \editionMod dynamics 1 0/8 music.Dynamics \pp
 \editionMod dynamics 1 1/8 music.Dynamics \crescPoco
-% \editionMod tweaks 1 0/8 music.Voice.A -"Editions"
+\editionMod tweaks 1 1/8 music.Dynamics \once\override DynamicText.X-offset = #0.5
+\editionMod tweaks 1 1/8 music.Dynamics \once\override DynamicText.whiteout = #3
 
 \editionMod dynamics 10 0/4 music.Dynamics \mf
+\editionMod tweaks 10 0/4 music.Dynamics \once\override DynamicText.X-offset = #-0.4
 
 \editionMod dynamics 13 0/4 music.Dynamics \sfz
 \editionMod tweaks 13 0/4 music.Voice.B \once\override Beam.positions = #'(2 . 5)
 
 \editionMod dynamics 15 0/4 music.Dynamics \sfz
 \editionMod tweaks 15 0/4 music.Voice.B \once\override Beam.positions = #'(2.3 . 5.5)
+\editionMod tweaks 15 0/4 music.Dynamics \once\override DynamicText.X-offset = #-0.7
 
 \editionMod dynamics 17 0/4 music.Dynamics \sfz
 \editionMod tweaks 17 0/4 music.Voice.B \once\override Beam.positions = #'(1 . 4.8)
@@ -32,13 +35,16 @@ crescPoco = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 
 \editionMod dynamics 21 0/4 music.Dynamics \pp
 
-\editionMod dynamics 29 9/4 music.Dynamics \mp
+\editionMod dynamics 29 0/4 music.Dynamics \mp
+\editionMod tweaks 29 0/4 music.Dynamics \once\override DynamicText.X-offset = #-0.2
 
 \editionMod dynamics 32 5/8 music.Dynamics \<
 
 \editionMod dynamics 34 0/4 music.Dynamics \sf
 
 \editionMod dynamics 36 0/4 music.Dynamics \pp
+\editionMod tweaks 36 0/4 music.Voice.A \once\override Rest.X-extent = #'(-1.2 . 2.4)
+\editionMod tweaks 36 0/4 music.Dynamics \once\override DynamicText.X-offset = #-0.7
 
 \editionMod dynamics 39 5/8 music.Dynamics \<
 
@@ -56,6 +62,7 @@ crescPoco = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
 
 \editionMod dynamics 48 0/4 music.Dynamics \pp
 \editionMod tweaks 48 2/4 music.Voice.A \once\override Score.Arpeggio.X-extent = #'(-1.5 . 0.5)
+\editionMod tweaks 48 0/4 music.Dynamics \once\override DynamicText.X-offset = #-0.2
 
 \editionMod dynamics 50 11/16 music.Dynamics \ppp
 
