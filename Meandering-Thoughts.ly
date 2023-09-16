@@ -14,13 +14,19 @@ date = #(strftime "%B %d %Y" (localtime (current-time)))
   } }
 }
 
-%#(set-global-staff-size 20)
+#(set-global-staff-size 18.5)
 %showLastLength = R1 * 10
 
 \paper {
   #(set-paper-size "a4")
   evenHeaderMarkup = \markup { \if \should-print-page-number { \fill-line { "" \fromproperty #'page:page-number-string } } }
   oddHeaderMarkup = \evenHeaderMarkup
+  % annotate-spacing = ##t
+  % page-count = #2
+  % system-count = #12
+  % system-system-spacing = #'((basic-distance . 0.1) (padding . 0))
+  ragged-last-bottom = ##f
+  ragged-bottom = ##f
 }
 
 \include "oll-core/package.ily"
