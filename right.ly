@@ -30,7 +30,7 @@ right = \absolute {
 
   \time 3/4
 
-  4\fermata g''' e''' |
+  4\tweak padding #1.8 \fermata g''' e''' |
 
   c'''2\) b''8\( a'' |
   <g'' b''>4 c''' d'''8 b'' |
